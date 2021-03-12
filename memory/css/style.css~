@@ -1,0 +1,63 @@
+.wrap {
+    max-width : 800px;
+    margin : 0 auto;
+    padding : 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#memory-content {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    align-items : center;
+}
+
+.memclass {
+    width : 12em;
+    height : 12em;
+    padding : 2px;
+    z-index : 10;
+}
+
+.memclass:hover {
+	border : 1px solid black;
+}
+
+.mem {
+    height : 100%;
+    width : 100%;
+    z-index : 0;
+}
+
+.compteur {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    min-height : 50px;
+    flex-direction : column;
+}
+
+.controls {
+    display : flex;
+    margin : 0 auto;
+    justify-content : center;
+    align-items : center;
+    margin-top : 1em;
+    width : 40%;
+}
+
+#start {
+    flex : 1;
+    border : 2px solid #3a85ff;
+    border-radius : 5px;
+    background-color : #8eb9ff;
+    height : auto;
+    padding : 8px;
+    font-weight : 600;
+    text-transform : uppercase;
+    font-size : 1.2em;
+}
+
+#time {
+    font-weight : 600;
+}
